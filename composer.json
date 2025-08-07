@@ -1,0 +1,19 @@
+{
+    "name": "jeeluo/tool",
+    "description": "构建自己的composer依赖包",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jeeluo\\Tool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "luoshiwei",
+            "email": "920566349@qq.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
